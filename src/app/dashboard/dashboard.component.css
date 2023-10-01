@@ -1,0 +1,179 @@
+/* styles.css */
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input Styles */
+.addInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Content Container Styles */
+.content-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Button Styles */
+.listBtn {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #007bff; /* Button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.listBtn:hover {
+    background-color: #0056b3; /* Button hover color */
+}
+
+/* Alert Styles */
+.alert {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #f0ad4e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Checkbox Styles */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Select All Styles */
+.selectall {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Styling the "Clear Completed" button */
+.btn-warning {
+    background-color: #d9534f;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn-warning:hover {
+    background-color: #c9302c;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
+.dateClass{
+    margin-bottom: 10px
+}
+.inputDiv{
+    padding-right: 10px;
+}
+
+
+/* Updated CSS */
+.inputDiv {
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.addInput {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin for spacing between input and button */
+}
+
+.listBtn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.listBtn:hover {
+    background-color: #0056b3;
+}
+/* Updated CSS */
+.task-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add spacing between title and date */
+}
+
+.task-date {
+    background-color: #f0ad4e; /* Highlight background color for the date */
+    color: #fff; /* Text color for the date */
+    padding: 2px 5px; /* Add padding to the date */
+    border-radius: 3px; /* Rounded corners for the date container */
+}
+.div-date{
+    margin-left: 60px;
+}
+
+.task-card {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 80px; /* Set a fixed height for each task card */
+}
+
